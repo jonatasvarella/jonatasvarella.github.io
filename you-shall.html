@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>You Shall Not Pass</title>
+    <!-- META TAGS -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <!-- FAVICON -->
+    <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <!-- CSS FILES -->
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/tooltipster.css" rel="stylesheet" type="text/css">
+    <link href="css/youtube-player.css" rel="stylesheet" type="text/css">
+    <link href="css/scrollbar.css" rel="stylesheet" type="text/css">
+    <link href="css/lightgallery.css" rel="stylesheet" type="text/css">
+    <link href="css/colors.css" rel="stylesheet" type="text/css">
+    <link href="css/media.css" rel="stylesheet" type="text/css">
+
+    <!-- NOSCRIPT -->
+    <noscript>
+        <link href="css/nojs.css" rel="stylesheet" type="text/css">
+    </noscript>
+</head>
+
+<body>
+    <!-- LOADING ANIMATION -->
+    <div id="site-loading"></div>
+    <!-- MAIN MENU -->
+    <div id="cv-menu">
+        <nav id="cv-main-menu">
+            <ul>
+                <!-- SIDEBAR MENU ICON -->
+                <li><a href="#" class="cv-menu-button fa fa-bars">Menu</a>
+                </li>
+                <li><a href="#" class="fa fa-home tooltip-menu" title="HOME">Home</a>
+                </li>
+                <li><a href="#" class="fa fa-user tooltip-menu" title="ABOUT">About</a>
+                </li>
+                <li><a href="#" class="fa fa-graduation-cap tooltip-menu" title="RESUME">Resume</a>
+                </li>
+                <li><a href="#" class="fa fa-briefcase tooltip-menu" title="PORTFOLIO">Portfolio</a>
+                </li>
+                <li><a href="#" class="fa fa-send tooltip-menu" title="CONTACT">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div id="cv-page-left">
+        <!-- YOUTUBE VIDEO  -->
+        <div class="cv-youtube-player" data-property="{videoURL:'https://youtu.be/cVy7YeeqGZQ?t=7',containment:'#cv-page-left',startAt:7,stopAt:56,mute:false,autoPlay:true,loop:true,quality:'large',showControls:true,showYTLogo:true}">
+        </div>
+    </div>
+    <div id="cv-page-right">
+<!-- THIS VIDEO WILL BE DISPLAYED ONLY ON MOBILE MODE ( 1024PX AND BELOW ) -->
+        <div class="video-mobile-only">
+            <div class="flex-video">
+                <iframe src="http://www.youtube.com/embed/cVy7YeeqGZQ?wmode=transparent"></iframe>
+            </div>
+        </div>
+        <!-- POST -->
+        <article class="cv-page-content">
+            <h1 class="border">You Shall Not Pass</h1>
+            <p>"You cannot pass," he said. The orcs stood still, and a dead silence fell. "I am a servant of the Secret Fire, wielder of the flame of Anor. You cannot pass. The dark fire will not avail you, flame of Udûn. Go back to the Shadow! You cannot pass."</p>
+
+            <p>—The Lord of the Rings, The Fellowship of the Ring, Book II, Chapter 5: "The Bridge of Khazad-dûm"</p>
+
+            <!-- FLEX IMAGE -->
+            <figure class="caption-image">
+                <div>
+                    <img src="http://i.stack.imgur.com/2BvbQ.jpg" alt="" />
+                </div>
+            </figure>
+        </article>
+    </div>
+    <!-- SIDEBAR -->
+    <aside id="cv-sidebar">
+        <div id="cv-sidebar-inner">
+    </aside>
+    <!-- JQUERY -->
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-custom.min.js"></script>
+    <!-- YOUTUBE VIDEO -->
+    <script type="text/javascript" src="js/youtube-player.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            if (jQuery(window).width() > 1024) {
+                jQuery('body').find(".cv-youtube-player").mb_YTPlayer();
+            }
+        });
+    </script>
+    <!-- TOOLTIPS -->
+    <script type="text/javascript" src="js/jquery.tooltipster.min.js"></script>
+    <!-- SIDEBAR SCROLLBAR -->
+    <script type="text/javascript" src="js/scrollbar.js"></script>
+    <!-- LIGHTGALLERY -->
+    <script type="text/javascript" src="js/lightgallery.js"></script>
+    <!-- ACCORDION -->
+    <script type="text/javascript" src="js/accordion.js"></script>
+    <!-- FLICKR -->
+    <script type="text/javascript" src="js/jflickrfeed.min.js"></script>
+    <!-- CUSTOM JS -->
+    <script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>

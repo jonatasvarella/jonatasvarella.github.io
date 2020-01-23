@@ -1,0 +1,469 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<!--
+<script language=javascript>
+senha = '123123';
+senhadig = prompt("Digite a senha","")
+if (senha != senhadig){
+top.location.href='you-shall.html';
+}
+</script>
+-->
+
+<head>
+    <title>Jonatas Varella</title>
+    <!-- META TAGS -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <!-- FAVICON -->
+    <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <!-- CSS FILES -->
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/nerveslider.css" rel="stylesheet" type="text/css">
+    <link href="css/tooltipster.css" rel="stylesheet" type="text/css">
+    <link href="css/scrollbar.css" rel="stylesheet" type="text/css">
+    <link href="css/lightgallery.css" rel="stylesheet" type="text/css">
+    <link href="css/colors.css" rel="stylesheet" type="text/css">
+    <link href="css/media.css" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]>
+       <script type="text/javascript" src="js/html5.js"></script>
+    <![endif]-->
+    <!-- GOOGLE MAP -->
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyCSI3LDyH9umVSP0ho01ATgVDNo3bRIh28"></script>
+    <script src="js/typewriter.js"></script>
+    <!-- NOSCRIPT -->
+    <noscript>
+        <link href="css/nojs.css" rel="stylesheet" type="text/css">
+    </noscript>
+</head>
+
+<!-- oncontextmenu='return false' onselectstart='return false' ondragstart='return false' -->
+
+<body>
+    <!-- LOADING ANIMATION -->
+    <div id="site-loading"></div>
+    <!-- MAIN MENU -->
+    <div id="cv-menu">
+        <nav id="cv-main-menu">
+            <ul>
+                <!-- SIDEBAR MENU ICON -->
+                <li><a href="#" class="cv-menu-button fa fa-bars">Menu</a>
+                </li>
+                <!-- PAGE 1 LINK -->
+                <li class="links-to-floor-li cv-active" data-id="1" data-slug="home"><a href="#home" class="fa fa-home tooltip-menu" title="HOME">Home</a>
+                </li>
+                <!-- PAGE 2 LINK -->
+                <li class="links-to-floor-li" data-id="2" data-slug="about"><a href="#about" class="fa fa-user tooltip-menu" title="ABOUT">About</a>
+                </li>
+                <!-- PAGE 3 LINK -->
+                <li class="links-to-floor-li" data-id="3" data-slug="resume"><a href="#resume" class="fa fa-graduation-cap tooltip-menu" title="RESUME">Resume</a>
+                </li>
+                <!-- PAGE 4 LINK -->
+                <li class="links-to-floor-li" data-id="4" data-slug="portfolio"><a href="#portfolio" class="fa fa-briefcase tooltip-menu" title="PORTFOLIO">Portfolio</a>
+                </li>
+                <!-- PAGE 5 LINK -->
+                <li class="links-to-floor-li" data-id="5" data-slug="contact"><a href="#contact" class="fa fa-send tooltip-menu" title="CONTACT">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!-- LEFT SLIDER -->
+    <div class="cv-left-slider">
+        <div id="cv-left-slider">
+            <!-- 1. SLIDE -->
+            <div>
+                <img src="images/photos/img.jpg" alt="">
+                <div id="home-slide-title">
+                    <span>JONATAS</span>
+                </div>
+            </div>
+            <!-- 2. SLIDE -->
+            <img src="images/photos/teste.jpg" alt="">
+            <!-- 3. SLIDE -->
+            <img src="images/photos/tentativa.jpg" alt="">
+            <!-- 4. SLIDE -->
+            <img src="images/photos/portfolio.jpg" alt="">
+            <!-- 5. SLIDE -->
+            <div>
+                <!-- GOOGLE MAP -->
+                <div class="google-map-container">
+                    <div id="google-map"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- PAGES -->
+    <div id="ascensorBuilding">
+        <!-- PAGE 1 -->
+        <section class="floor floor-1">
+            <div id="home-image">
+                <div id="home-title">
+                    <h1><span class="mobile-title">JONATAS</span><span>VARELLA</span></h1>
+                    <p> 
+                    	<a href="" style="color: #000000" class="typewrite" data-period="2000" data-type='[ "Political Scientist Student.", "Data Scientist.", "Public Management.", "Analytics Consultant."]'>
+                    	<span class="wrap"></span>
+                    	</a>
+                    </p>
+                </div>
+                <!-- SOCIAL ICONS -->
+                <div id="cv-home-social-bar-container">
+                    <nav id="cv-home-social-bar">
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/jonatas.varella" class="fa fa-facebook-f tooltip-social" title="FACEBOOK">Facebook</a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/jonatasvarella/" class="fa fa-linkedin tooltip-social" title="LINKEDIN">Linkedin</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/jonatasvarella" class="fa-github tooltip-social" title="GITHUB">GitHub</a>
+                            </li>
+                            <li>
+                                <a href="https://medium.com/@jonatasvarellacb" class="fa fa-medium tooltip-social" title="BLOG">Medium</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <!-- PAGE 2 -->
+        <section class="floor floor-2">
+            <!-- THIS IMAGE WILL BE DISPLAYED ONLY ON MOBILE MODE ( 1024PX AND BELOW ) -->
+            <div class="img-mobile-only">
+                <img src="images/photos/teste_small.jpg" alt="" />
+            </div>
+            <!-- PAGE CONTENT -->
+            <div class="cv-page-content">
+                <h2 class="border">ABOUT</h2>
+                <p>Graduated in Public Management from the Federal University of Minas Gerais, Master in Political Science at the same university. Data scientist with sound knowledge in public policy, with emphasis on the evaluation and monitoring phases. Experience with qualitative and quantitative research, data processing and analysis, machine learning and research methods. </p>
+                <!-- TABLE -->
+                <ul class="cv-table">
+                    <li>
+                        <div class="cv-table-left"><i class="cv-icon fa fa-user"></i>Date of birth</div>
+                        <div class="cv-table-right"> April 28, 1995</div>
+                    </li>
+                    <li>
+                        <div class="cv-table-left"><i class="cv-icon fa fa-language"></i>Language</div>
+                        <div class="cv-table-right">Portuguese (Native), English (B2)</div>
+                    </li>
+                    <li>
+                        <div class="cv-table-left"><i class="cv-icon fa fa-futbol-o"></i>Hobbies</div>
+                        <div class="cv-table-right">Politics, Soccer, Movies</div>
+                    </li>
+                    <li>
+                        <div class="cv-table-left"><i class="cv-icon fa fa-external-link-square"></i>Website</div>
+                        <div class="cv-table-right"><a href="http://jonatasvarella.com">www.jonatasvarella.com</a>
+                        </div>
+                    </li>
+                </ul>
+                <a href="#contact" class="cv-button primary go-to-floor" data-id="5" data-slug="contact">Hire me</a>
+                <!-- <a href="#" class="cv-button">Download Resume</a> -->
+                <hr/>
+                <h2 class="border">Skills</h2>
+                <div class="cv-main-icon-container">
+                    <!-- ICON BLOCK -->
+                    <div class="cv-icon-block">
+                        <div class="cv-icon-container">
+                            <a href="#" class="fa fa-bar-chart">DataScience</a>
+                        </div>
+                        <div class="cv-icon-text">
+                            <h4>Data Science</h4>
+                            <p>Analytics; Machine learning; Big data; Data Intelligence; Structured programming: R, Python.;</p>
+                        </div>
+                    </div>
+                    <!-- ICON BLOCK -->
+                    <div class="cv-icon-block">
+                        <div class="cv-icon-container">
+                            <a href="#" class="fa fa-users" aria-hidden="true" >Research</a>
+                        </div>
+                        <div class="cv-icon-text">
+                            <h4>Research</h4>
+                            <p>Opinion Research; Market Research; Focal Group;</p>
+                        </div>
+                    </div>
+                    <!-- ICON BLOCK -->
+                    <div class="cv-icon-block">
+                        <div class="cv-icon-container">
+                            <a href="#" class="fa fa-dot-circle-o" aria-hidden="true" >Linux</a>
+                        </div>
+                        <div class="cv-icon-text">
+                            <h4>Public Policies</h4>
+                            <p>Avaliação e monitoramento de políticas públicas; Consultoria de gestão e estratégia governamental.</p>
+                        </div>
+                    </div>
+                    <!-- ICON BLOCK -->
+                    <div class="cv-icon-block">
+                        <div class="cv-icon-container">
+                            <a href="#" class="fa fa-arrows" aria-hidden="true">Mkt</a>
+                        </div>
+                        <div class="cv-icon-text">
+                            <h4>Marketing</h4>
+                            <p>Estatística para Marketing; Estratégia digital; </p>
+                        </div>
+                    </div>
+                
+            
+            </div>
+        </section>
+        <!-- PAGE 3 -->
+        <section class="floor floor-3">
+            <!-- THIS IMAGE WILL BE DISPLAYED ONLY ON MOBILE MODE ( 1024PX AND BELOW ) -->
+            <div class="img-mobile-only">
+                <img src="images/photos/tentativa_small.jpg" alt="" />
+            </div>
+            <!-- PAGE CONTENT -->
+            <div class="cv-page-content">
+                <h2 class="border">EDUCATION</h2>
+                <div class="cv-resume-box">
+                    <div class="cv-resume-title">
+                        <h5>Universidade Federal de Minas Gerais</h5>
+                        <p>Masters in Political Science | 2019-Present</p>
+                    </div>
+                    <p>The stricto sensu postgraduate course in Political Science at UFMG is the oldest in
+                         the country, having started its activities in 1966, with the creation of the
+                          master's degree course. Completely consolidated and regarded as excellence by Capes, 
+                          the Post-Graduate Program in Political Science (PPGCP) has made an important 
+                          contribution to scientific production in the discipline,highlighting its insertion 
+                          in international networks, the plurality of research groups and for its centrality
+                           in the debates of Brazilian political science.</p>
+                </div>
+                <div class="cv-resume-box">
+                    <div class="cv-resume-title">
+                        <h5>Universidade Federal de Minas Gerais</h5>
+                        <p>Gestão Pública | 2013-2018</p>
+                    </div>
+                    <p>The undergraduate course in Public Management trains professionals to occupy strategic positions 
+                        in public interest institutions and at the same time offers solid basic training and flexibility
+                         so that the student directs their training according to their interests within the public
+                          management. Most of the subjects that make up its curriculum are taught by professors from the 
+                          departments of Political Science, Economics and Sociology.</p>
+                </div>
+                <hr/>
+                <h2 class="border">SKILLS</h2>
+                <p>These are some of my skills.</p>
+                <!-- SKILL BARS -->
+                <div class="skills">
+                    <div class="skillbar" data-percent="90%">
+                        <div class="skillbar-title"><span>R</span>
+                        </div>
+                        <div class="skillbar-bar"></div>
+                        <div class="skill-bar-percent">90%</div>
+                    </div>
+                    <div class="skillbar" data-percent="50%">
+                        <div class="skillbar-title"><span>Python</span>
+                        </div>
+                        <div class="skillbar-bar"></div>
+                        <div class="skill-bar-percent">50%</div>
+                    </div>
+                    <div class="skillbar" data-percent="70%">
+                        <div class="skillbar-title"><span>Analytics</span>
+                        </div>
+                        <div class="skillbar-bar"></div>
+                        <div class="skill-bar-percent">70%</div>
+                    </div>
+                    <div class="skillbar" data-percent="90%">
+                        <div class="skillbar-title"><span>Marketing</span>
+                        </div>
+                        <div class="skillbar-bar"></div>
+                        <div class="skill-bar-percent">90%</div>
+                    </div>
+                    <div class="skillbar" data-percent="80%">
+                        <div class="skillbar-title"><span>Leadership</span>
+                        </div>
+                        <div class="skillbar-bar"></div>
+                        <div class="skill-bar-percent">80%</div>
+                    </div>
+                    <div class="skillbar" data-percent="90%">
+                        <div class="skillbar-title"><span>Data Intelligence</span>
+                        </div>
+                        <div class="skillbar-bar"></div>
+                        <div class="skill-bar-percent">90%</div>
+                    </div>
+                    <!-- End Skill Bars -->
+                </div>
+                <hr/>
+                <h2 class="border">EXPERIENCE</h2>
+                <div class="cv-resume-box">
+                    <div class="cv-resume-title">
+                        <h5>Research Assistant - Quaest Consultoria e Pesquisa</h5>
+                        <p>2018 - 2019</p>
+                    </div>
+                    <p>Technical analyst. Acting in the phases of data processing and analysis.</p>
+                </div>
+                <div class="cv-resume-box">
+                        <div class="cv-resume-title">
+                            <h5>Head of Marketing - Quaest Consultoria e Pesquisa</h5>
+                            <p>2019 - 2019</p>
+                        </div>
+                        <p>Responsible for digital marketing strategy</p>
+                </div>
+                <div class="cv-resume-box">
+                        <div class="cv-resume-title">
+                            <h5>Trainee - Secretaria de Estado de Esporte de Minas Gerais</h5>
+                            <p>2016 - 2017</p>
+                        </div>
+                        <p>Analyst of public policies by the Direction of Promotion and Organization of Sports Policies.</p>
+                </div>
+                <div class="cv-resume-box">
+                        <div class="cv-resume-title">
+                            <h5>Academy Research Assistant - Universidade Federal de Minas Gerais</h5>
+                            <p>2015 - 2016</p>
+                        </div>
+                        <p>Trainee in the extension project that developed the monitoring and evaluation
+                             system for the "Sports and Leisure in the City" and "Healthy Life" policies of the Ministry of Sports.</p>
+                </div>
+                <div class="cv-resume-box">
+                        <div class="cv-resume-title">
+                            <h5>Trainee - Unidade de Pronto Atendimento (UPA-Pampulha)</h5>
+                            <p>2013 - 2015</p>
+                        </div>
+                        <p>Trainee for two years through the program "Friends of Health: Can I Help?".
+                             I was part of the Management Collegiate of the unit, where I worked for about a year.</p>
+                </div>
+                <hr/>
+                <h2 class="border">COURSES</h2>
+                <div class="cv-resume-box">
+                    <div class="cv-resume-title">
+                        <h5>Data Intelligence</h5>
+                        <p>2019</p>
+                    </div>
+                    <div class="cv-resume-box">
+                        <div class="cv-resume-title">
+                            <h5>R</h5>
+                            <p>2015 - 2016</p>
+                        </div>
+                        <p>Trainee in the extension project that developed the monitoring and evaluation
+                             system for the "Sports and Leisure in the City" and "Healthy Life" policies of the Ministry of Sports.</p>
+                </div>
+                <div class="cv-resume-box">
+                        <div class="cv-resume-title">
+                            <h5>Marketing</h5>
+                            <p>2015 - 2016</p>
+                        </div>
+                        <p>Trainee in the extension project that developed the monitoring and evaluation
+                             system for the "Sports and Leisure in the City" and "Healthy Life" policies of the Ministry of Sports.</p>
+                </div>
+                <hr/>
+            </div>
+        </section>
+        <!-- PAGE 4 -->
+        <section class="floor floor-4">
+            <!-- THIS IMAGE WILL BE DISPLAYED ONLY ON MOBILE MODE ( 1024PX AND BELOW ) -->
+            <div class="img-mobile-only">
+                <img src="images/photos/portfolio_small.jpg" alt="" />
+            </div>
+            <!-- PAGE CONTENT -->
+            <div class="cv-page-content">
+                <h2 class="border">PORTFOLIO</h2>
+                <!-- PORTFOLIO FILTERS -->
+                <ul id="cv-portfolio-filter" class="cvfilters">
+                    <li data-filter="all" class="gridactive">All</li>
+                    <li data-filter="ufmg">Blog</li>
+                    <li data-filter="courses">Courses</li>
+                </ul>
+                <div class="clear"></div>
+                <!-- PORTFOLIO GRID -->
+                <ul id="cv-portfolio" class="cvgrid">
+
+                    <li data-filter-class='["all","ufmg"]'>
+                        <figure>
+                            <a href="https://medium.com/@jonatasvarellacb" target="_blank" class="_blank">
+                                <img src="images/photos/port_aedsi.jpg" alt="" />
+                            </a>
+                            <figcaption>
+                                <div class="cvgrid-title">Análise do discurso de Bolsonaro</div>
+                            </figcaption>
+                        </figure>
+                    </li>
+
+                    <li data-filter-class='["all","ufmg","courses"]'>
+                        <figure>
+                            <a href="https://github.com/jonatasvarella/analisemultivariada" target="_blank" class="_blank">
+                                <img src="images/photos/multivariada.png" alt="" />
+                            </a>
+                            <figcaption>
+                                <div class="cvgrid-title">Curso de análise multivariada</div>
+                            </figcaption>
+                        </figure>
+                    </li>
+
+                    
+
+
+
+                </ul>
+                <div class="clear"></div>
+            </div>
+        </section>
+        <!-- PAGE 5 -->
+        <section class="floor floor-5">
+            <!-- MOBILE GOOGLE MAP -->
+            <div class="mobile-map-container">
+                <div id="mobile-map"></div>
+            </div>
+            <!-- PAGE CONTENT -->
+            <div class="cv-page-content">
+                <h2 class="border">CONTACT</h2>
+                <!-- TABLE -->
+                <ul class="cv-table">
+                    <li>
+                        <div class="cv-table-left"><i class="cv-icon fa fa-phone-square"></i>Phone</div>
+                        <div class="cv-table-right">+55 (31) 9 8568-2414</div>
+                    </li>
+                    <li>
+                        <div class="cv-table-left"><i class="cv-icon fa fa-whatsapp"></i>Whatsapp</div>
+                        <div class="cv-table-right">+55 (31) 9 8568-2414</div>
+                    </li>
+                    <li>
+                        <div class="cv-table-left"><i class="cv-icon fa fa-envelope"></i>E-mail</div>
+                        <div class="cv-table-right"><a href="#">jonatasvarellacb@gmail.com</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cv-table-left"><i class="cv-icon fa fa-map"></i>Address</div>
+                        <div class="cv-table-right">Belo Horizonte, Minas Gerais</div>
+                    </li>
+                </ul>
+                <hr/>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- MAIN JS FILES -->
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-custom.min.js"></script>
+    <script type="text/javascript" src="js/jquery.ascensor.min.js"></script>
+    <script type="text/javascript" src="js/nerveslider.min.js"></script>
+    <!-- BACKSTRETCH (HOMEPAGE RIGHT SIDE BG IMAGE) -->
+    <script type="text/javascript" src="js/backstretch.min.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+            "use strict";
+            jQuery('#home-image').backstretch("images/photos/img2.jpg");
+        });
+    </script>
+    <!-- PORTFOLIO -->
+    <script type="text/javascript" src="js/wookmark.js"></script>
+    <script type="text/javascript" src="js/portfolio-trigger.js"></script>
+    <!-- TOOLTIPS -->
+    <script type="text/javascript" src="js/jquery.tooltipster.min.js"></script>
+    <!-- TESTIMONIALS -->
+    <script type="text/javascript" src="js/quovolver.js"></script>
+    <!-- SIDEBAR SCROLLBAR -->
+    <script type="text/javascript" src="js/scrollbar.js"></script>
+    <!-- LIGHTGALLERY -->
+    <script type="text/javascript" src="js/lightgallery.js"></script>
+    <script type="text/javascript" src="js/galleries.js"></script>
+    <!-- GOOGLE MAP -->
+    <script type="text/javascript" src="js/googlemap.js"></script>
+    <!-- CUSTOM JS -->
+    <script type="text/javascript" src="js/home-custom.js"></script>
+</body>
+
+</html>
